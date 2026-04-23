@@ -20,12 +20,12 @@
             padding-bottom: 10px;
         }
         h1 { font-size: 1.5rem; color: #000; margin: 0; }
-        h2 { 
-            font-size: 1.1rem; 
-            color: #000; 
-            border-bottom: 1px solid #eee; 
-            padding-bottom: 5px; 
-            margin-top: 30px; 
+        h2 {
+            font-size: 1.1rem;
+            color: #000;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 30px;
         }
         p, li { font-size: 0.95rem; margin-bottom: 10px; }
         ul, ol { padding-left: 20px; }
@@ -60,9 +60,10 @@
     <h2>1. Information Collection</h2>
     <p>The Service Provider collects information to provide and improve the Service. This includes:</p>
     <ul>
-        <li><strong>Personal Information:</strong> When you register via Social Login (Google, Apple), we may collect your email address, nickname, and a unique identifier provided by the platform.</li>
-        <li><strong>Usage Data:</strong> We automatically collect certain information when you access the Application, such as your device's OS version, model name, and access logs.</li>
-        <li><strong>Advertising Identifiers:</strong> We may collect <span style="font-weight: bold;">ADID (Android Advertising ID) or IDFA (Apple Identifier for Advertisers)</span> to provide personalized advertisements through AdMob.</li>
+        <li><strong>Personal Information (via Social Login):</strong> When you register via Social Login (Google, Apple), we collect your email address, display name, the social login provider (Google/Apple), and a unique identifier provided by the platform.</li>
+        <li><strong>Service Usage Information:</strong> Your point balance, ad-free period, and in-app purchase records (order ID, product ID, purchase time).</li>
+        <li><strong>Automatically Collected Information:</strong> Device information (OS version, model name, app version), access logs, crash logs, and service usage records.</li>
+        <li><strong>Advertising Identifiers:</strong> We may collect <strong>ADID (Android Advertising ID) or IDFA (Apple Identifier for Advertisers)</strong> to provide personalized advertisements through AdMob.</li>
     </ul>
 
     <h2>2. Use of Information</h2>
@@ -76,7 +77,16 @@
     </ul>
 
     <h2>3. Data Storage and International Transfer</h2>
-    <p>The Service Provider utilizes third-party services such as <strong>Google Firebase</strong> and <strong>AdMob</strong>. Your information may be transferred to, and maintained on, computers located outside of your state or country where the data protection laws may differ. By using the Service, you consent to the transfer of information to international servers.</p>
+    <p>The Service Provider transfers your personal information internationally in order to operate the Service. By using the Service, you consent to this transfer.</p>
+    <ul>
+        <li><strong>Recipient:</strong> Google LLC (United States)</li>
+        <li><strong>Destination:</strong> The United States and Google's global data centers</li>
+        <li><strong>Transfer Timing and Method:</strong> At the time of each service interaction, transmitted over the network</li>
+        <li><strong>Items Transferred:</strong> Email address, display name, social login identifier, device information, access logs, advertising identifier (ADID/IDFA), crash logs, in-app purchase records</li>
+        <li><strong>Purpose:</strong> Authentication (Firebase Authentication), data storage (Cloud Firestore), personalized advertising (AdMob), usage analytics (Google Analytics for Firebase), crash reporting (Firebase Crashlytics)</li>
+        <li><strong>Retention Period:</strong> In accordance with the Service Provider's retention policy, applicable law, and Google's service terms</li>
+    </ul>
+    <p>Data protection laws in the destination countries may differ from those in your jurisdiction. Users located in the European Economic Area, the United Kingdom, or other regions with applicable data protection laws retain the rights granted under those laws.</p>
 
     <h2>4. Third-Party Services</h2>
     <p>The Application uses third-party services that may collect information used to identify you. You can find the privacy policies of these providers below:</p>
@@ -87,10 +97,10 @@
     </ul>
 
     <h2>5. Retention and Destruction of Data</h2>
-    <p>The Service Provider will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. Upon your request for account deletion or when the data is no longer required, we will delete your data using technically irreversible methods.</p>
+    <p>The Service Provider retains your personal information for as long as your account remains active. Upon account deletion or when the data is no longer required for the purposes set out in this Privacy Policy, your personal information is stored in a separate, isolated environment and then permanently deleted or anonymized within 30 days. Information that the Service Provider is required to retain under applicable law will be kept for the period prescribed by such law and will not be used for any other purpose.</p>
 
     <h2>6. Children's Privacy</h2>
-    <p>The Application is restricted to users who are <strong>14 years of age or older</strong>. The Service Provider does not knowingly collect personally identifiable information from children under 14. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us.</p>
+    <p>The Application is intended for users who are <strong>14 years of age or older</strong>. The Service Provider does not knowingly collect personal information from children under 14 without verifiable parental or legal guardian consent. If a child under 14 wishes to use the Service in a jurisdiction that requires such consent (including the Republic of Korea), the consent of a parent or legal guardian is required. If you are a parent or guardian and believe that your child has provided us with personal information without your consent, please contact us so that we can delete the information promptly.</p>
 
     <h2>7. User Rights and Choices</h2>
     <p>You have the right to access, update, or delete your personal information at any time. You may also opt-out of personalized advertising by adjusting your mobile device settings:</p>
@@ -115,7 +125,7 @@
 </section>
 
 <footer>
-    <p>This Privacy Policy is effective as of <strong>2026-04-13</strong></p>
+    <p>This Privacy Policy is effective as of <strong>2026-04-23</strong></p>
 </footer>
 
 </body>
